@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project analyses **35 years of historical weather data (1990–2024)** for Glasgow using the **Open‑Meteo Archive API** to answer:
 
@@ -27,7 +27,7 @@ This project is designed to be transparent, reproducible, and interview‑ready.
 
 ---
 
-## 📂 Files in This Project
+## Files in This Project
 
 | File | Description |
 |------|-------------|
@@ -36,7 +36,7 @@ This project is designed to be transparent, reproducible, and interview‑ready.
 
 ---
 
-## 🌤 Data Source
+## Data Source
 
 All weather data used in this project comes from:
 
@@ -52,7 +52,7 @@ Location: **Glasgow (55.86°N, –4.25°W)**
 
 ---
 
-## 🧠 Methodology Summary
+## Methodology Summary
 
 ### **1. Label Creation – Snow vs No Snow**
 A "snow day" is defined as:
@@ -75,7 +75,7 @@ Outputs include classification reports + confusion matrices.
 
 ---
 
-## ❄️ Winter‑Level Analysis
+## Winter‑Level Analysis
 
 ### **Probability of at least one snow day per winter**
 Winters are defined as:
@@ -89,7 +89,7 @@ Output computed:
 
 ---
 
-## 📅 First Snow‑Date Analysis
+## First Snow‑Date Analysis
 
 For each winter, the notebook computes:
 
@@ -104,23 +104,16 @@ This provides a **data‑driven prediction window** for when snow usually begins
 
 ---
 
-## 🔮 Climatological Prediction (How to Interpret)
+## Climatological Prediction (How to Interpret)
 
 The notebook’s results help answer:
 
 > “If next winter behaves like the historical record, when is snow most likely to start?”
 
-You will obtain outputs such as:
-
-- **Median first‑snow date:** e.g., *22 January*  
-- **Typical window:** e.g., *05 Jan → 15 Feb*  
-- **Probability of a snowy winter:** e.g., *78%*  
-
-Replace the above with your actual computed numbers.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Install dependencies:
 ```
@@ -136,7 +129,7 @@ The notebook automatically downloads the required historical data.
 
 ---
 
-## 📝 Closing Note
+## Closing Note
 
 This project was built **with care** as a compact, defensible prototype demonstrating:
 
@@ -145,6 +138,6 @@ This project was built **with care** as a compact, defensible prototype demonstr
 - Real‑world climatology application  
 - Business‑ready insight communication  
 
-**Made with heart in Glasgow by Shreyas Gowda B.**  
+**Made with ❤️ in Glasgow by Shreyas Gowda B.**  
 Documentation and explanatory notes prepared with the help of **ChatGPT (GPT‑5)**.
 
